@@ -402,20 +402,35 @@
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Forms</div> <i class="icon-menu" title="Forms"></i></li>
 						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
-							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Empleados</span></a>
+							<a href="#" class="nav-link"><i class="icon-man-woman"></i> <span>Empleados</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form components">
 								<li class="nav-item"><a href="form_input_groups.html" class="nav-link">Agregar empleados</a></li>
-								<li class="nav-item"><a href="editar-departamentos.html" class="nav-link">Editar información de empleados</a></li>
+								<li class="nav-item"><a href="Editar.html" class="nav-link">Editar información de empleados</a></li>
 								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">Lista de empleados</a></li>
-							</ul>
+								<li class="nav-item nav-item-submenu">
+							    <a href="#" class="nav-link"><span>Vacaciones</span></a>
+							    <ul class="nav nav-group-sub" data-submenu-title="Form components">
+							    	<li class="nav-item"><a href="agregar_vacaciones.html" class="nav-link">Solicitar vacaciones</a></li>
+							    	<li class="nav-item"><a href="Lista_vacaciones.html" class="nav-link">Lista</a></li>							    	
+							    	<li class="nav-item"><a href="editar-vacaciones.html" class="nav-link">Editar</a></li>
+							    </ul></li>
+							</ul></li>
 							
-							<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
-							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Departamento</span></a>
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+							<a href="#" class="nav-link"><i class="icon-reading"></i> <span>Departamento</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form components">
 								<li class="nav-item"><a href="agregar_departamentos.html" class="nav-link">Agregar departamento</a></li>
-								<li class="nav-item"><a href="Editar.html" class="nav-link">Editar departamentos</a></li>
+								<li class="nav-item"><a href="editar-departamentos.html" class="nav-link">Editar departamentos</a></li>
 								<li class="nav-item"><a href="Lista_departamentos.html" class="nav-link">Lista de departamentos</a></li>
 							</ul> </li>
+
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+							<a href="#" class="nav-link"><i class="icon-office"></i> <span>Empresas</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Form components">
+								<li class="nav-item"><a href="agregar_empresas.html" class="nav-link">Agregar empresas</a></li>
+								<li class="nav-item"><a href="Editar.html" class="nav-link">Editar información de empresas</a></li>
+								<li class="nav-item"><a href="Lista_empresas.html" class="nav-link">Lista de empresas</a></li>
+						    </ul> </li>
 
 				</div>
 				<!-- /main navigation -->
@@ -434,7 +449,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Empleados</span> - Editar</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Departamentos</span> - Editar</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
@@ -451,7 +466,7 @@
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<a href="form_input_groups.html" class="breadcrumb-item">Empleados</a>
+							<a href="form_input_groups.html" class="breadcrumb-item">Departamentos</a>
 							<span class="breadcrumb-item active">Formulario</span>
 						</div>
 
@@ -492,7 +507,7 @@
 				<!-- Basic datatable -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Listado de empleados</h5>
+						<h5 class="card-title">Listado de departamentos</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -504,7 +519,7 @@
 
 					<div class="card-body">
 
-                        <p> A continuación se muestra el registro de los empleados.</p>
+                        <p> A continuación se muestra el listado de departamentos.</p>
 						<!-- The <code>DataTables</code> is a highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table. DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function. Searching, ordering, paging etc goodness will be immediately added to the table, as shown in this example. <strong>Datatables support all available table styling.</strong> -->
 					</div>
 					<div id="DataTables_Table_0_filter" class="dataTables_filter"><label><span>Buscar:</span> <input type="search" class="" placeholder="Buscar..." aria-controls="DataTables_Table_0"></label> <td><tr>
