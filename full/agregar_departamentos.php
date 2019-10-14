@@ -484,12 +484,6 @@
 						<!-- Forms -->
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Forms</div> 
 						<i class="icon-menu" title="Forms"></i></li>
-						<li class="nav-item">
-							<a href="index.html" class="nav-link">
-								<i class="icon-home4"></i>
-								<span>Dashboard</span>
-							</a>
-						</li>
 						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-man-woman"></i> <span>Empleados</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form components">
@@ -1249,17 +1243,17 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Empresas</span> - Formulario</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Departamentos</span> - Formulario</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
-					<!--<div class="header-elements d-none">
+					<div class="header-elements d-none">
 						<div class="d-flex justify-content-center">
 							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-bars-alt text-primary"></i><span>Statistics</span></a>
 							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-calculator text-primary"></i> <span>Invoices</span></a>
 							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-calendar5 text-primary"></i> <span>Schedule</span></a>
 						</div>
-					</div>-->
+					</div>
 				</div>
 
 				<div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
@@ -1273,7 +1267,7 @@
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
-					<!--<div class="header-elements d-none">
+					<div class="header-elements d-none">
 						<div class="breadcrumb justify-content-center">
 							<a href="#" class="breadcrumb-elements-item">
 								<i class="icon-comment-discussion mr-2"></i>
@@ -1295,7 +1289,7 @@
 								</div>
 							</div>
 						</div>
-					</div>-->
+					</div>
 				</div>
 			</div>
 			<!-- /page header -->
@@ -1307,7 +1301,7 @@
 				<!-- Input group addons -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Empresas</h5>
+						<h5 class="card-title">Departamentos</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1321,14 +1315,14 @@
 						<!--
 						<p class="mb-4">Extend form controls by adding text or buttons before, after, or on both sides of any text-based <code>&lt;input></code>. Use <code>.input-group</code> with an <code>.input-group-prepend</code> to prepend or <code>.input-group-append</code> to append elements to a single <code>.form-control</code>. Place one add-on or button on either side of an input. You may also place one on both sides of an input. While multiple <code>&lt;input></code>s are supported visually, validation styles are only available for input groups with a single <code>&lt;input></code>.</p> -->
 
-						<p class= "mb-4"> Para dar de alta una empresa es necesario llenar el siguiente registro. </p>
+						<p class= "mb-4"> Para dar de alta un departamento es necesario llenar el siguiente registro. </p>
                        
 						<form action="#">
 							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Datos</legend>
+								<legend class="text-uppercase font-size-sm font-weight-bold">Datos personales</legend>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Clave de la empresa:</label>
+									<label class="col-form-label col-lg-2">Clave del departamento:</label>
 									<div class="col-lg-10">
 										<div class="input-group">
 											<!--
@@ -1341,7 +1335,7 @@
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Nombre de la empresa:</label>
+									<label class="col-form-label col-lg-2">Nombre del departamento:</label>
 									<div class="col-lg-10">
 										<div class="input-group">
 											<!--
@@ -1354,7 +1348,7 @@
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Dirección:</label>
+									<label class="col-form-label col-lg-2">Descripción:</label>
 									<div class="col-lg-10">
 										<div class="input-group">
 											<!--
@@ -1362,20 +1356,7 @@
 												<span class="input-group-text">$</span>
 												<span class="input-group-text">0.00</span>
 											</span> -->
-											<input type="text" class="form-control" placeholder="Dirección">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Código postal:</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<!--
-											<span class="input-group-prepend">
-												<span class="input-group-text">@</span>
-											</span> -->
-											<input type="text" class="form-control" placeholder="Código postal">
+											<input type="text" class="form-control" placeholder="Descripción">
 										</div>
 									</div>
 								</div>
@@ -1403,58 +1384,6 @@
 												<span class="input-group-text">@</span>
 											</span> -->
 											<input type="text" class="form-control" placeholder="Teléfono">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Fax:</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<!--
-											<span class="input-group-prepend">
-												<span class="input-group-text">@</span>
-											</span> -->
-											<input type="text" class="form-control" placeholder="Fax">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Representante legal:</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<!--
-											<span class="input-group-prepend">
-												<span class="input-group-text">@</span>
-											</span> -->
-											<input type="text" class="form-control" placeholder="Representante">
-										</div>
-									</div>
-								</div>
-							
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Sitio web:</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<!--
-											<span class="input-group-prepend">
-												<span class="input-group-text">@</span>
-											</span> -->
-											<input type="text" class="form-control" placeholder="Sitio web">
-										</div>
-									</div>
-								</div>								
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Fecha de inscripción:</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<!--
-											<span class="input-group-prepend">
-												<span class="input-group-text">@</span>
-											</span> -->
-											<input type="text" class="form-control" placeholder="Inicio">
 										</div>
 									</div>
 								</div>
